@@ -1,38 +1,45 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap");
+
+body {
+}
+
+.heading {
+  background-color: #f5f0bb;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  padding: 2rem;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  padding: 1rem;
+
+  width: 100vw;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container > input {
+  height: 3rem;
+  width: 50%;
+  text-align: center;
+  border-radius: 2rem;
+}
+.image {
+  margin-top: 2rem;
+}
+.image > span {
+  font-size: 3rem;
+  margin: 1rem;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image h3 {
+  font-size: 2rem;
+  font-family: "Comic Neue", cursive;
+  margin: 2rem;
+  padding: 1rem;
+  opacity: 0.6;
 }
